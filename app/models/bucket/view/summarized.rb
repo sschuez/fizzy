@@ -1,6 +1,6 @@
 module Bucket::View::Summarized
   def summary
-    [ order_by_summary, status_summary, assignee_summary, tag_summary ].compact.to_sentence.upcase_first
+    [ order_by_summary, status_summary, tag_summary, assignee_summary ].compact.to_sentence.upcase_first
   end
 
   private
