@@ -149,3 +149,9 @@ Use Chrome MCP tools to interact with the running dev app for UI testing and deb
 ## Coding style
 
 @STYLE.md
+
+## Fork Maintenance
+
+This is a fork of basecamp/fizzy. See the maintenance guide for syncing with upstream:
+
+@FORK_MAINTENANCE.md
