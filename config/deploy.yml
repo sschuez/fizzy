@@ -17,8 +17,8 @@ ssh:
 proxy:
   ssl: true # Set this to false if you *don't* want SSL
   hosts:
-    - fizzy.margareti.com # Set your server name here to use automatic SSL
-    - www.fizzy.margareti.com # Set your server name here to use automatic SSL
+    - do.margareti.com # Set your server name here to use automatic SSL
+    - www.do.margareti.com # Set your server name here to use automatic SSL
 
 # Your application configuration (secrets come from .kamal/secrets).
 env:
