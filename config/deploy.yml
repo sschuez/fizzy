@@ -1,6 +1,6 @@
 # Name of this app
 service: fizzy
-image: fizzy
+image: pschuez/fizzy
 
 #-- About your deployment --#
 
