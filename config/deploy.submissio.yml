@@ -5,8 +5,17 @@ servers:
 proxy:
   ssl: true
   hosts:
-    - do.submissio.com
-    - www.do.submissio.com
+    - do.submissio.ch
+    - www.do.submissio.ch
+
+env:
+  secret:
+    - SMTP_USERNAME
+    - SMTP_PASSWORD
+  clear:
+    IS_SUBMISSIO: true
+    TENANT_NAME: "submissio"
+    MAILER_FROM_ADDRESS: info@submissio.ch
 
 builder:
   arch: x86_64

@@ -8,5 +8,14 @@ proxy:
     - do.margareti.com
     - www.do.margareti.com
 
+env:
+  secret:
+    - SMTP_USERNAME
+    - SMTP_PASSWORD
+  clear:
+    IS_PRIVATE: true
+    TENANT_NAME: "private"
+    MAILER_FROM_ADDRESS: hey@margareti.com
+
 builder:
   arch: aarch64
