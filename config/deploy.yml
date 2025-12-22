@@ -5,11 +5,6 @@ ssh:
   user: root
 
 env:
-  secret:
-    - RAILS_MASTER_KEY
-    - SECRET_KEY_BASE
-    - VAPID_PUBLIC_KEY
-    - VAPID_PRIVATE_KEY
   clear:
     SMTP_ADDRESS: smtp.postmarkapp.com
     MULTI_TENANT: false
