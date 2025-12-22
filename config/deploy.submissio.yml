@@ -1,0 +1,12 @@
+servers:
+  web:
+    - 91.99.136.140
+
+proxy:
+  ssl: true
+  hosts:
+    - do.submissio.com
+    - www.do.submissio.com
+
+builder:
+  arch: x86_64

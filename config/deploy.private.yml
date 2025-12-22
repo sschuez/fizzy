@@ -1,0 +1,12 @@
+servers:
+  web:
+    - 168.119.127.165
+
+proxy:
+  ssl: true
+  hosts:
+    - do.margareti.com
+    - www.do.margareti.com
+
+builder:
+  arch: aarch64
