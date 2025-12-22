@@ -5,7 +5,7 @@ USE_TAILSCALE=0
 
 for arg in "$@"; do
   case $arg in
-    --tailscale) USE_TAILSCALE=1 ;;
+  --tailscale) USE_TAILSCALE=1 ;;
   esac
 done
 
