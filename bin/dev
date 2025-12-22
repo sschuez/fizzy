@@ -17,6 +17,10 @@ if [ -f tmp/oss-config.txt ]; then
   export OSS_CONFIG=1
 fi
 
+if [ -f tmp/submissio.txt ]; then
+  export IS_SUBMISSIO=true
+fi
+
 if [ "$USE_TAILSCALE" = "1" ]; then
   if ! command -v tailscale >/dev/null 2>&1; then
     echo "Error: tailscale not found" >&2
